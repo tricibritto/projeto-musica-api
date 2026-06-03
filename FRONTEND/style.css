@@ -26,8 +26,8 @@ header h1{
 }
 
 header p{
-    margin-top:10px;
     color:#cbd5e1;
+    margin-top:10px;
 }
 
 main{
@@ -60,13 +60,9 @@ input{
     color:white;
 }
 
-input::placeholder{
-    color:#cbd5e1;
-}
-
 button{
     width:100%;
-    padding:14px;
+    padding:12px;
     border:none;
     border-radius:12px;
     background:linear-gradient(
@@ -75,9 +71,7 @@ button{
         #ec4899
     );
     color:white;
-    font-size:1rem;
     cursor:pointer;
-    transition:0.3s;
 }
 
 button:hover{
@@ -91,14 +85,23 @@ ul{
 li{
     background:#334155;
     padding:15px;
-    margin-bottom:12px;
     border-radius:12px;
-    border-left:5px solid #8b5cf6;
+    margin-bottom:12px;
+}
+
+.acoes{
+    margin-top:10px;
+    display:flex;
+    gap:10px;
+}
+
+.acoes button{
+    flex:1;
 }
 
 footer{
-    margin-top:50px;
     text-align:center;
-    padding:25px;
+    margin-top:40px;
+    padding:20px;
     color:#cbd5e1;
 }
