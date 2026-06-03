@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicHub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎵 MusicHub</h1>
+        <p>Cadastre suas músicas favoritas</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <h2>Nova Música</h2>
+
+            <form id="musicForm">
+
+                <input
+                    type="text"
+                    id="titulo"
+                    placeholder="Título da música"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="artista"
+                    placeholder="Nome do artista"
+                    required
+                >
+
+                <button type="submit">
+                    Cadastrar Música
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Músicas Cadastradas</h2>
+
+            <ul id="musicList"></ul>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Desenvolvido por:
+            Trícia Britto
+          
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
